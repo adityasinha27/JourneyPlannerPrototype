@@ -108,9 +108,12 @@ npm run dev
 
 ## 🖼️ Assets Folder
 
-You can place project screenshots in the following folders:
-- `frontend/assets/` — Frontend screenshots
-- `backend/assets/` — Backend screenshots
+### Backend Architecture
+![Backend Screenshot](backend/assets/pic1.png)
+
+### Frontend UI
+![Frontend UI](frontend/assets/pic2.png)
+
 
 ---
 
