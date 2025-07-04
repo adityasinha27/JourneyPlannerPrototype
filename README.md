@@ -108,15 +108,30 @@ npm run dev
 
 ## 🖼️ Assets Folder
 
-### Backend Architecture
-![Add Bus Stop](backend/assets/pic1.png)
-![Add Bus Route](backend/assets/pic3.png)
+## 🧱 Backend Architecture
 
-### Frontend UI
-![All Bus Stops](frontend/assets/pic2.png)
-![All Bus Routes](frontend/assets/pic4.png)
-![Journey Planner Example 1](frontend/assets/pic5.png)
-![Journey Planner Example 2](frontend/assets/pic6.png)
+### ➕ Add Bus Stop
+![Add Bus Stop Screenshot](backend/assets/pic1.png)
+
+### ➕ Add Bus Route
+![Add Bus Route Screenshot](backend/assets/pic3.png)
+
+---
+
+## 🎨 Frontend UI
+
+### 📍 All Bus Stops Page
+![All Bus Stops UI](frontend/assets/pic2.png)
+
+### 🛣️ All Bus Routes Page
+![All Bus Routes UI](frontend/assets/pic4.png)
+
+### 🧭 Journey Planner – Example 1
+![Journey Planner Example 1](frontend/assets/pic5.jpeg)
+
+### 🧭 Journey Planner – Example 2
+![Journey Planner Example 2](frontend/assets/pic6.jpeg)
+
 
 
 ---
