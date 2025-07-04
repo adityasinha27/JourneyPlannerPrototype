@@ -109,10 +109,14 @@ npm run dev
 ## 🖼️ Assets Folder
 
 ### Backend Architecture
-![Backend Screenshot](backend/assets/pic1.png)
+![Add Bus Stop](backend/assets/pic1.png)
+![Add Bus Route](backend/assets/pic3.png)
 
 ### Frontend UI
-![Frontend UI](frontend/assets/pic2.png)
+![All Bus Stops](frontend/assets/pic2.png)
+![All Bus Routes](frontend/assets/pic4.png)
+![Journey Planner Example 1](frontend/assets/pic5.png)
+![Journey Planner Example 2](frontend/assets/pic6.png)
 
 
 ---
