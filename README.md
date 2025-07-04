@@ -41,13 +41,15 @@ mo-bus-app/
 │   ├── models/
 │   ├── routes/
 │   ├── utils/
-│   └── server.js
+│   ├── server.js
+│   └── assets/   # Screenshots related to backend
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── App.jsx
 │   │   └── main.jsx
-│   └── index.html
+│   ├── index.html
+│   └── assets/   # Screenshots related to frontend
 ```
 
 ---
@@ -83,12 +85,12 @@ npm run dev
 
 ## 🌐 API Endpoints
 
-| Method | Endpoint              | Description                      |
-|--------|------------------------|----------------------------------|
-| GET    | `/api/busstops`        | Get all bus stops                |
-| POST   | `/api/busstops`        | Add a new bus stop               |
-| GET    | `/api/busroutes`       | Get all bus routes               |
-| POST   | `/api/busroutes`       | Add a new bus route              |
+| Method | Endpoint              | Description                              |
+|--------|------------------------|------------------------------------------|
+| GET    | `/api/busstops`        | Get all bus stops                        |
+| POST   | `/api/busstops`        | Add a new bus stop                       |
+| GET    | `/api/busroutes`       | Get all bus routes                       |
+| POST   | `/api/busroutes`       | Add a new bus route                      |
 | GET    | `/api/journey`         | Get all paths from source to destination |
 
 ---
@@ -98,8 +100,17 @@ npm run dev
 - Make sure to use your **Radar Secret Key** in `.env`
 - We use `GET /v1/route/distance` to calculate real-time distance and time
 
-Docs: https://radar.com/documentation/api#route-distance
-Data Prepared: https://docs.google.com/spreadsheets/d/1ekxihrrClufF2Uf6M6nEoHCoOnipzcx5xHISgAtxogg/edit?usp=sharing
+📄 API Docs: [Radar Distance API](https://radar.com/documentation/api#route-distance)
+
+📊 Sample Data Sheet: [Google Sheet - Stops & Routes](https://docs.google.com/spreadsheets/d/1ekxihrrClufF2Uf6M6nEoHCoOnipzcx5xHISgAtxogg/edit?usp=sharing)
+
+---
+
+## 🖼️ Assets Folder
+
+You can place project screenshots in the following folders:
+- `frontend/assets/` — Frontend screenshots
+- `backend/assets/` — Backend screenshots
 
 ---
 
@@ -113,4 +124,4 @@ Data Prepared: https://docs.google.com/spreadsheets/d/1ekxihrrClufF2Uf6M6nEoHCoO
 
 ## 👨‍💻 Author
 
-Developed by Aman 🚀
+Developed by **Aman** 🚀
