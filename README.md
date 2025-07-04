@@ -99,6 +99,7 @@ npm run dev
 - We use `GET /v1/route/distance` to calculate real-time distance and time
 
 Docs: https://radar.com/documentation/api#route-distance
+Data Prepared: https://docs.google.com/spreadsheets/d/1ekxihrrClufF2Uf6M6nEoHCoOnipzcx5xHISgAtxogg/edit?usp=sharing
 
 ---
 
