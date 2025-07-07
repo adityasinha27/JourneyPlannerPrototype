@@ -8,6 +8,7 @@ const busStopRoutes = require('./routes/busStopRoutes');
 const busRouteRoutes = require('./routes/busRouteRoutes');
 const graphRoutes = require('./routes/graphRoutes');
 const journeyRoutes = require('./routes/journeyRoutes');
+const dijkstraRoutes = require('./routes/dijkstraRoutes');
 
 // Initialize app
 const app = express();
@@ -21,7 +22,7 @@ app.use('/api/busstops', busStopRoutes);
 app.use('/api/busroutes', busRouteRoutes);
 app.use('/api/graph', graphRoutes);
 app.use('/api/journey', journeyRoutes);
-
+app.use('/api/dijkstra', dijkstraRoutes);
 // Root
 app.get('/', (req, res) => res.send('🚍 Mo Bus API is running'));
 
