@@ -138,7 +138,7 @@ npm run dev
 
 ## ✅ Coming Soon
 
-- Sort journeys by shortest distance / time
+- Sort journeys by shortest distance / time using Dijkstra Algorithm
 - Map preview of routes
 - User login & saved journeys
 
