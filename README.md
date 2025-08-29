@@ -144,6 +144,4 @@ npm run dev
 
 ---
 
-## 👨‍💻 Author
 
-Developed by **Aman** 🚀
